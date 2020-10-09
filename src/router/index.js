@@ -111,6 +111,16 @@ export default new Router({
       path: '/center',
       name: 'center',
       component: () => import('@/components/htmlcss/center')
+    },
+    {
+      path: '/vertical',
+      name: 'vertical',
+      component: () => import('@/components/htmlcss/verticalCenter')
+    },
+    {
+      path: '/moreColumn',
+      name: 'moreColumn',
+      component: () => import('@/components/htmlcss/moreColumn')
     }
   ]
 })
